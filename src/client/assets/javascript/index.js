@@ -161,7 +161,8 @@ function handleSelectTrack(target) {
 	}
 
 	// add class selected to current target
-	target.classList.add('selected')
+  target.classList.add('selected')
+  store.track_id = Number(target.id)
 
 	// TODO - save the selected track id to the store
 	
