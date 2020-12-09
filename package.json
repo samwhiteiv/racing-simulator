@@ -1,5 +1,5 @@
 {
-  "name": "pod_racer_sim",
+  "name": "RacingSimulator",
   "version": "1.0.0",
   "description": "Racing simulator for Pod Racers",
   "main": "index.js",
