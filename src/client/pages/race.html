@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Start Your Pod Racer Simulation</title>
+    <title>Start Your Race Simulation</title>
     <link rel="stylesheet" href="assets/stylesheets/reset.css">
     <link rel="stylesheet" href="assets/stylesheets/index.css">
     <link rel="stylesheet" href="assets/stylesheets/form.css">
     <link rel="stylesheet" href="assets/stylesheets/create.css">
     <link rel="stylesheet" href="assets/stylesheets/progress.css">
     <link rel="stylesheet" href="assets/stylesheets/results.css">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">-->
+    <link rel="stylesheet" href="assets/stylesheets/theme.css">
+    <link rel="stylesheet" href="https://newcss.net/theme/night.css">
     <script src="/assets/javascript/index.js" charset="utf-8"></script>
 </head>
 
 <body id="race">
     <header>
-        <h1>Start Your Pod Racer Sim</h1>
+        <h1>Start Your Race Sim</h1>
     </header>
     <main>
         <section id="create-race">
@@ -39,11 +42,11 @@
                 <ul class="cards-list" id="racers">
                     <!-- filled via js -->
                 </ul>
-                <label for="podRacer" class="sr-only">Pod Racer:</label>
+                <label for="podRacer" class="sr-only">Car:</label>
                 <select id="podRacer" name="podRacer" class="required sr-only">
                     <option value="test5">test</option>
                 </select>
-                <button class="button" type="submit" id="submit-create-race">Start Race</button>
+                <button type="submit" id="submit-create-race">Start Race</button>
             </form>
         </section>
     </main>

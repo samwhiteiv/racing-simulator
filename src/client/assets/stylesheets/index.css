@@ -18,10 +18,11 @@ body {
   flex-direction: column;
   font-family: Arial;
   min-height: 100vh;
+  max-width: 100% !important;
 }
 
 header {
-  background-image: url('https://via.placeholder.com/1150');
+  background-image: url('/assets/images/race-them-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,6 +30,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: transparent !important;
 }
 
 h1 {
@@ -59,7 +61,7 @@ h4 {
 }
 
 p {
-  color: black;
+  color: white;
   font-weight: normal;
   font-size: 18px;
 }

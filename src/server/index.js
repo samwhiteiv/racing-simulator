@@ -10,7 +10,6 @@ const port = 3000
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
-
 // setup the express assets path
 app.use('/', express.static(path.join(__dirname, '../client')))
 

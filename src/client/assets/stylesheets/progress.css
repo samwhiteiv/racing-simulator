@@ -2,7 +2,9 @@
 
 /* -------------------  MOBILE  --------------------- */
 header {
-  background-image: url('https://via.placeholder.com/1150');
+  /*background-image: url('https://via.placeholder.com/1150'); */
+  background-image: url('/assets/images/race-them-background.jpg');
+
 }
 
 main#two-columns {
