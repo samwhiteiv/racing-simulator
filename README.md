@@ -1,7 +1,7 @@
 
 ## Overview
 
-This project is a racing simulator where a user selects a player and track, the game begins and the user accelerates their racer by clicking an acceleration button. As the user accelerates so do the other players and the leaderboard live-updates as players change position on the track. The final view is a results page displaying the players' rankings. It is built in JS and uses Node on the backend.
+This project is a racing simulator where a user selects a player and track, the game begins and the user accelerates their racer by clicking an acceleration button. As the user accelerates so do the other players and the leaderboard live-updates as players change position on the track. The final view is a results page displaying the players' rankings. It is built in JS and uses Node for the backend API.
 
 ### Installation & Usage
 - cd into the project's root directory
